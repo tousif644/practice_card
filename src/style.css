@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background-color: #252525;
+  color: white;
+}
+
+.main_div {
+  display: flex;
+  justify-content: center;
+}
+.sub-div {
+  width: 317px;
+  background-color: #1a1b21;
+  margin-top: 10px;
+}
+.text-intro{
+  text-align: center;
+  line-height: 15px;
+}
+.text-intro > p {
+  color: #F3BF99;
+}
+.buttons{
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.email{
+  align-items: center;
+  border: none;
+  color: black;
+  background-color: white;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+.linkedin{
+  background-color: #5093E2;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  border-radius: 5px;
+}
+
+.description{
+  padding: 30px;
+}
+
+.footer{
+  background-color: #161619;
+  height: 50px;
+}
+.footer > ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+.footer > ul > li{
+  padding-right: 30px;
+  margin-top: 10px;
+  width: 40px;
+  text-decoration: none;
+}
